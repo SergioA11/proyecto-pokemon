@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+  background-color: #ffe6e6; /* Fondo rojo claro */
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #333333; /* Fondo gris oscuro */
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  color: #333; /* Color de la letra */
+}
+
+.card-body button {
+  background-color: #0056b3; /* Botones en azul */
+  color: #fff; /* Texto en blanco */
+}
+
+.card-body button:hover {
+  background-color: #004080; /* Un tono más oscuro de azul */
+}
+
+h1 {
+  color: #333; /* Color de la letra del título */
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+}
