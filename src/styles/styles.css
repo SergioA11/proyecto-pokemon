@@ -1,12 +1,10 @@
-/* styles.css */
-
 body {
-  background-color: #ffe6e6; /* Fondo rojo claro */
+  background-color: #ffe6e6; 
   font-family: 'Arial', sans-serif;
 }
 
 .navbar {
-  background-color: #333333; /* Fondo gris oscuro */
+  background-color: #333333;
   margin-bottom: 20px;
 }
 
@@ -20,20 +18,20 @@ body {
 }
 
 .card-title {
-  color: #333; /* Color de la letra */
+  color: #333; 
 }
 
 .card-body button {
-  background-color: #0056b3; /* Botones en azul */
-  color: #fff; /* Texto en blanco */
+  background-color: #0056b3; 
+  color: #fff; 
 }
 
 .card-body button:hover {
-  background-color: #004080; /* Un tono más oscuro de azul */
+  background-color: #004080; 
 }
 
 h1 {
-  color: #333; /* Color de la letra del título */
+  color: #333; 
   margin-bottom: 20px;
 }
 
@@ -46,7 +44,6 @@ h1 {
   height: auto;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .card {
     margin-bottom: 20px;
